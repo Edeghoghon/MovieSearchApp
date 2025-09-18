@@ -3,7 +3,6 @@ import React, { use, useEffect } from "react";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "../css/Player.css";
-
 const Videos = () => {
   const { id } = useParams();
   const navigation = useNavigate();
