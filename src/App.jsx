@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Favorites from "./pages/Favorites";
 import NavBar from "./Components/NavBar";
 import Player from "./pages/Player";
-import { MovieProvider } from "./contexts/moviecontext";
+import { MovieProvider } from "./contexts/MovieContext";
 
 function App() {
   return (
